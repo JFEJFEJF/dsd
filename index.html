@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PDF Downloader</h1>
+        <div class="file-list">
+            <ul>
+                <!-- Example PDF files -->
+                <li>
+                    <span>Document 1</span>
+                    <div class="actions">
+                        <a href="pdfs/document1.pdf" download>
+                            <button>Download</button>
+                        </a>
+                        <button onclick="previewFile('pdfs/document1.pdf')">Preview</button>
+                    </div>
+                </li>
+                <li>
+                    <span>Document 2</span>
+                    <div class="actions">
+                        <a href="pdfs/document2.pdf" download>
+                            <button>Download</button>
+                        </a>
+                        <button onclick="previewFile('pdfs/document2.pdf')">Preview</button>
+                    </div>
+                </li>
+                <li>
+                    <span>Document 3</span>
+                    <div class="actions">
+                        <a href="pdfs/document3.pdf" download>
+                            <button>Download</button>
+                        </a>
+                        <button onclick="previewFile('pdfs/document3.pdf')">Preview</button>
+                    </div>
+                </li>
+                <!-- Add more PDF files as needed -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
